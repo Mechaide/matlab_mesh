@@ -1,7 +1,7 @@
 # Mechaide - Matlab Mesh 2D - DIMEC - UChile
 [www.mechaide.com](http://www.mechaide.com) 
 
-MATLAB tool for generating meshes from DXF files in 2D. Supports Delaunay triangulation and optimized polygonal meshes (dpolylla) with Lloyd relaxation.
+MATLAB tool for generating meshes from DXF files in 2D. Supports Delaunay triangulation and optimized polygonal meshes D-Polylla with Lloyd relaxation for VEM.
 
 ## Requirements
 - MATLAB (R2018b or later recommended).
@@ -74,7 +74,6 @@ exportgraphics(gcf, 'images/final_mesh.png', 'Resolution', 300);
 The Direct Polylla (D-Polylla) algorithm mesh type in this project is based on the [Polylla-Mesh-DCEL](https://github.com/ssalinasfe/Polylla-Mesh-DCEL) algorithm by ssalinasfe. Their work on polygonal meshing using terminal-edge regions and half-edge data structures was adapted for MATLAB.
 
 ## Notes
-- Ensure `mechaide_DXF` is in MATLAB's path.
 - Console logs include execution times for key steps (e.g., point generation, contour extraction).
 - Disable plotting (`plot_* = false`) to speed up execution if only data is needed.
 - For large geometries, reduce `d` or `iterations` to optimize performance.
