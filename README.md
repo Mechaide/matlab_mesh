@@ -10,7 +10,7 @@ MATLAB tool for generating meshes from DXF files in 2D. Supports Delaunay triang
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mechaide/matlab_mesh_2D.git
+   git clone https://github.com/mechaide/matlab_mesh_2D.git 
    ```
 
 ## Usage
