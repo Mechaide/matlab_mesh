@@ -51,9 +51,9 @@ mesh_data = mechaide_MESH.generateMeshFromDXF(dxf_file, d, mesh_type, ...
 ## Sample Outputs
 Below are example visualizations:<br>
 
-<img src="images/test.png" alt="drawing" hight="400"/><br>
-<img src="images/test1.png" alt="drawing" hight="400"/><br>
-<img src="images/test2.png" alt="drawing" hight="400"/>
+<img src="images/test.png" alt="drawing" height="400"/><br>
+<img src="images/test1.png" alt="drawing" height="400"/><br>
+<img src="images/test2.png" alt="drawing" height="400"/>
 
 ## Output
 - **`mesh_data`**: Struct with:
